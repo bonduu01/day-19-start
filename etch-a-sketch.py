@@ -27,8 +27,10 @@ def anti_clock():
 
 def clear():
     turtle.clear()
-    turtle.home()
     turtle.penup()
+    turtle.home()
+    turtle.pendown()
+
 
 
 screen.listen()
