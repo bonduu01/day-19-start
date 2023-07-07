@@ -32,7 +32,6 @@ def clear():
     turtle.pendown()
 
 
-
 screen.listen()
 screen.onkey(forward, "w")
 screen.onkey(backward, "s")
